@@ -6,10 +6,6 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Launcher: запускает 2 параллельных ОС-процесса (две JVM),
- * каждый из которых поднимает своё окно и рисует свой прямоугольник.
- */
 public class LauncherMain {
 
     private static final String CHILD_MAIN_CLASS = "ru.lipin.pvc.app.WindowMain";
